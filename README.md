@@ -8,3 +8,8 @@ Show status of an specific translation using a SVG
 - [ ] API to get other languages
 
 ## How to use
+
+> ts
+> overnight
+> jest
+> husky

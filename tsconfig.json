@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "rootDir": "./",
+    "baseUrl": "./",
+    "outDir": "dist",
+    "emitDecoratorMetadata": true,
+    "declaration": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "strict": true,
+    "target": "es6",
+    "types": [
+
+"jest",       "node"
+    ],
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "**/node_modules/"
+  ]
+}
