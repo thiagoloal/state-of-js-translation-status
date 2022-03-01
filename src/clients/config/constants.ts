@@ -1,0 +1,1 @@
+export const STATE_OF_JS_API = 'https://api.stateofjs.com/graphql';
