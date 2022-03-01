@@ -1,1 +1,1 @@
-export * from './example.controller';
+export * from './state-os-js.controller';
