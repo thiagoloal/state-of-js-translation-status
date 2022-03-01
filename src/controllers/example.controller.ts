@@ -12,6 +12,7 @@ export class CustomRouterController {
         } catch (error) {
           res.status(BAD_REQUEST).json({message: error})
         }
+
     }
 
     @Get('svg')
