@@ -1,9 +1,9 @@
 import { Request, Response } from 'express';
 import { OK, BAD_REQUEST } from 'http-status-codes';
 import { Controller, Get } from '@overnightjs/core';
-import { StateOfJs } from 'src/clients/state-of-js.client';
-import { ApolloHttpClient } from 'src/infra';
-import { svgResponse } from 'src/presenters/responses/svgResponse/svgResponse';
+import { StateOfJs } from '../clients/state-of-js.client';
+import { ApolloHttpClient } from '../infra';
+import { svgResponse } from '../presenters/responses/svgResponse/svgResponse';
 
 @Controller('api/state')
 export class CustomRouterController {
