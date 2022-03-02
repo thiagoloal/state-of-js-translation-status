@@ -1,5 +1,4 @@
-import { AvaiableQueries } from "src/infra/helpers/queries/avaiable";
-import { HttpResponse } from ".";
+import { AvaiableQueries } from "../../../infra/helpers/queries/avaiable";
 
 export interface HttpGetParams {
 	url: string;
