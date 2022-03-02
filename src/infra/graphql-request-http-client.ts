@@ -17,7 +17,7 @@ export class ApolloHttpClient implements HttpGetClient {
 			}
       graphQLResponse = await request(params.url, query).then(data => data)
 		} catch (error) {
-			graphQLResponse = error?.response;
+			graphQLResponse = error;
 		}
 		return graphQLResponse;
 	}
