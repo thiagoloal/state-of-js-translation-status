@@ -43,7 +43,7 @@
 	"scripts": {
     "start": "npm run build && NODE_ENV=production node ./dist/src/main/index.js",
 		"dev": "ts-node -r tsconfig-paths/register ./src/main/index.ts",
-		"build": "tsc --project tsconfig.json",
+		"build": "npx tsc --project tsconfig.json",
 		"test": "jest --config jest.config.js",
 		"test:unit": "npm run test -- --coverage",
 		"test:watch": "npm run test -- --watch",
